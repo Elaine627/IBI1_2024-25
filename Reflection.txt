@@ -3,3 +3,7 @@ This is an example file for reflection in IBI1_2024-25.
 During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
 
 I have also learnt to write careful instructions when communicating online!
+
+I encountered obstacles for quite a few times during this practical. I was confused about the "git revert" command when I tried it out for the first time. 
+
+I am wondering why I often have trouble getting accessing GitHub. Is it because I am on Ubuntu?
