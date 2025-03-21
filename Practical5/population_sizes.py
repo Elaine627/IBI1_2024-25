@@ -6,6 +6,7 @@ print(f"This is a list of sorted values for the populations of countries in the 
 print(f"This is a list of sorted values for the populations of Zhejiang-neighbouring provinces in China: {sorted(zhejiang_neighbouring_provinces)}")
 
 # construct two charts displaying the distribution of population sizes
+# This part is adapted from lecture 5.1 slides by Professor Chi Ying.
 import matplotlib.pyplot as plt
 # pie chart for UK countries
 labels = "England", "Wales", "Northern Ireland", "Scotland"
