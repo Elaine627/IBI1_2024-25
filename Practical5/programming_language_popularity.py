@@ -3,6 +3,7 @@ programming_language_popularity = {'javascript': 62.3, 'html': 52.9, 'python': 5
 print(programming_language_popularity)
 
 # Construct a bar plot
+# This part is adapted from lecture 5.1 slides by Professor Chi Ying.
 import numpy as np
 import matplotlib.pyplot as plt
 N = 5
