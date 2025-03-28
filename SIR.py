@@ -49,4 +49,3 @@ plt.ylabel("number of people")
 plt.title("A simple SIR model")
 plt.legend()
 plt.show()
-
