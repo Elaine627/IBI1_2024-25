@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: Output times of trials needed to draw two random integers ranging from 1 to 6, and get two integers that are equal
+# Answer: Output times of trials needed to draw two random integers ranging from 1 to 6, and get two integers that are equal to
 
 # Import libraries
 # randint allows drawing a random number,
