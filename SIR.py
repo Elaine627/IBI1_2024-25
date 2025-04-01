@@ -29,9 +29,9 @@ for time_point in time_points: # Loop over 1000 time points
     else:
         newly_infected = 0
     # Update the numbers of recovered, infected and susceptible people
-    Recovered = Recovered + newly_recovered
-    Infected = Infected - newly_recovered + newly_infected
-    Susceptible = Susceptible - newly_infected 
+    Recovered = min(Population, Recovered + newly_recovered)
+    Infected = max(0, Infected - newly_recovered + newly_infected)
+    Susceptible = max(0, Susceptible - newly_infected)
     
     # Record the updates via the arrays
     array_for_susceptible = np.append(array_for_susceptible, [Susceptible])
