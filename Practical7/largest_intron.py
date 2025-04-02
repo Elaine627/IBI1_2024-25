@@ -1,7 +1,8 @@
 import re
 seq = 'ATGCAAGTGGTGTGTCTGTTCTGAGAGGGCCTAA'
-introns = re.findall(r'(?=(GT.+?AG))',seq)
-largest_length = 0
+introns = re.findall(r'(?=(GT.+?AG))',seq) # find all possible introns
+largest_length = 0 # initialize the variable
+# Loop through the list of possible introns and find the largest intron
 for intron in introns:
     length = len(intron)
     if length > largest_length:
