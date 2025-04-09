@@ -22,7 +22,10 @@ def drug_dosage_calculator(weight, strength):
         if strength.replace(" ","") == '250mg/5ml':
             volume = dose/50
         return volume
-    
+
+# Example function call
+example = drug_dosage_calculator(45,'120mg/5ml')
+print(f"Here's an example function call, with weight of 45kg and paracemol strength of 120mg/5ml:The volume of paracetamol required (in ml) is: {example}")
 weight = float(input("Please tell us your weight(in kg):"))
 strength = str(input("What will be the strength of paracetamol?"))
 output = drug_dosage_calculator(weight, strength) # Call the function
