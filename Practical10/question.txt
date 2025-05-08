@@ -1,0 +1,3 @@
+How has the relationship between the DALYs in China and the UK changed over time? Are they becoming more or less similar?
+Code:Starting from line 42
+Result: The plot showed that DALYs in both China and the UK are declining over time. DALYs in China is higher than that in the UK, but they are becoming more similar over time.
