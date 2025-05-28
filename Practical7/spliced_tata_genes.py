@@ -29,5 +29,3 @@ with open(output_fasta, 'w') as out_file:
             # Write to output file with gene name and TATA count
             out_file.write(f">{gene_name}|Number of instances of the TATA box within the sequence: {tata_count}\n")
             out_file.write(f"{sequence}\n")
-
-print(f"Filtered genes written to {output_fasta}")
