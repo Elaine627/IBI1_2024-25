@@ -1,0 +1,15 @@
+1. Length and subcellular localisation of the human SOD2 protein
+Length: 222 amino acids
+Subcellular localisation: mitochondrion matrix
+2. Range of percentage identities in the reported online BLAST results: 58.1-100%
+3. The alignment score and percentage of identical amino acids for each of the three comparisons:
+human-mouse:
+alignment score = 1097.0
+percentage of identical amino acids = 90.09%
+human-random:
+alignment score = -265.0
+percentage of identical amino acids = 4.50%
+mouse-random:
+alignment score = -268.0
+percentage of identical amino acids = 4.05%
+4. Human sequence and mouse sequence are most closely related
