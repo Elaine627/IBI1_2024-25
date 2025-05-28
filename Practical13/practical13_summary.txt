@@ -13,3 +13,7 @@ mouse-random:
 alignment score = -268.0
 percentage of identical amino acids = 4.05%
 4. Human sequence and mouse sequence are most closely related
+
+Interpretation: 
+Alignment score and percentage of identical amino acid was significantly higher in human-mouse comparison, in contrast to human-random and mouse-random comparisons.
+This result supports that the human sequence and mouse sequence are homologs.
