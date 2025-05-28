@@ -1,0 +1,7 @@
+I find this task rather challenging, but at the same time very interesting to cope with.
+It was interesting to seek solutions for minor issues that I would not otherwise realize if there had not been an error message. For example, when simulating "recover", the number of people infected could turn negative, which does not make any sense. 
+In the revised versions, these are checked e.g.:
+Recovered = min(Population, Recovered + newly_recovered)
+Infected = max(0, Infected - newly_recovered + newly_infected)
+Susceptible = max(0, Susceptible - newly_infected)
+    
