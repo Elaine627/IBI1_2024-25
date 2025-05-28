@@ -1,4 +1,4 @@
-# import pytho libraries
+# import python libraries
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -37,13 +37,19 @@ if uk_mean_dalys == france_mean_dalys:
 print(f"\nHere is a plot showing the DALYs over time in the UK.")
 plt.plot(uk.Year, uk.DALYs, 'b+')
 plt.xticks(uk.Year,rotation=-90)
+plt.title("DALYs data for the UK over time")
+plt.xlabel("Year")
+plt.ylabel("DALYs")
 plt.show()
 
 # Code for question.txt
 china = dalys_data.loc[dalys_data.Entity == "China", ["DALYs","Year"]]
 print(f"\nBelow is a plot showing how the relationship between the DALYs in China and the UK changed over time. They are becoming more similar.")
-plt.plot(uk.Year, uk.DALYs, 'g+')
-plt.plot(china.Year,china.DALYs,'r+')
+plt.plot(uk.Year, uk.DALYs, 'b+', label='UK')
+plt.plot(china.Year,china.DALYs, 'r+', label='China')
 plt.xticks(uk.Year,rotation=-60)
 plt.title("DALYs in China and the UK")
+plt.xlabel("Year")
+plt.ylabel("DALYs")
+plt.legend()
 plt.show()
