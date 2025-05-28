@@ -17,10 +17,10 @@ output_fasta = f'{user_input}_spliced_genes.fa'
 # Process the genes
 with open(output_fasta, 'w') as out_file:
     for record in SeqIO.parse(input_fasta, "fasta"):
-        gene_name = record.id.split('_')[0]  # Get just the gene name
+        gene_name = record.id.split('_')[0]  # Extract just the gene name
         sequence = str(record.seq)
         
-        # Find all TATA boxes (using your pattern)
+        # Find all TATA boxes
         tata_matches = re.findall('(TATA[AT]A[AT])', sequence, re.IGNORECASE)
         tata_count = len(tata_matches)
         
